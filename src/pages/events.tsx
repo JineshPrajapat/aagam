@@ -182,10 +182,12 @@ export default function events() {
           <div className="flex-col w-full h-full absolute">
             <div className="flex flex-col items-center justify-center w-full h-full backg">
               <div>
-                <div className="text-white esm:text-5xl text-8xl  ">
-                  {' '}
-                  Events
-                </div>
+              <div className="text-7xl font-semibold font-serif h-40
+                              bg-clip-text  text-transparent 
+                              bg-gradient-to-r from-red-600 via-yellow-300 to-cyan-700 bg-clip-text text-transparent
+                              animate-text">
+                  EVENTS
+              </div>
                 <Link href="/events">
                   {' '}
                   {/* <button className="opacity-100 flex mt-8 items-center gap-3 font-semibold text-white rounded-xl px-3 py-2 bg-gradient-to-r esm:text-sm text-2xl from-primary to-secondary hover:from-secondary hover:to-primary duration-300 transition-all">
